@@ -1,0 +1,110 @@
+[
+    {
+        "id": "308295ce.80a29a",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "84dde902.729898",
+        "type": "watson-conversation-v1",
+        "z": "308295ce.80a29a",
+        "name": "Tourism India",
+        "workspaceid": "",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "service-endpoint": "",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 90,
+        "y": 40,
+        "wires": [
+            [
+                "e60d9f5b.eab7"
+            ]
+        ]
+    },
+    {
+        "id": "e60d9f5b.eab7",
+        "type": "function",
+        "z": "308295ce.80a29a",
+        "name": "Ask_Discovery",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "fa0a88b6.6c2748"
+            ]
+        ]
+    },
+    {
+        "id": "fa0a88b6.6c2748",
+        "type": "watson-discovery-v1",
+        "z": "308295ce.80a29a",
+        "name": "Tourism India",
+        "environmentname": "",
+        "environmentId": "",
+        "collectionId": "",
+        "configurationname": "",
+        "configurationId": "",
+        "language_code": "en",
+        "collection_name": "",
+        "count": "1",
+        "passages": true,
+        "nlp_query": true,
+        "query": "",
+        "filter": "",
+        "aggregation": "",
+        "return": "",
+        "description": "",
+        "size": "LT",
+        "discovery-method": "query",
+        "service-endpoint": "",
+        "x": 390,
+        "y": 200,
+        "wires": [
+            [
+                "9cd6861d.b4a5a8"
+            ]
+        ]
+    },
+    {
+        "id": "6e9c2220.1a1f6c",
+        "type": "watson-conversation-v1",
+        "z": "308295ce.80a29a",
+        "name": "Tourism Inda",
+        "workspaceid": "",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "service-endpoint": "",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 690,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9cd6861d.b4a5a8",
+        "type": "function",
+        "z": "308295ce.80a29a",
+        "name": "Ask_Discovery",
+        "func": "",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 280,
+        "wires": [
+            [
+                "6e9c2220.1a1f6c"
+            ]
+        ]
+    }
+]
