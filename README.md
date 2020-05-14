@@ -19,12 +19,19 @@ Step 3: Follow the in-built steps in Assistant to create your first chatbox.
 Step 4: Follow the in-build steps to create your discovery
         Copy your API key and URL(On the Launch Watson Discovery page)
         Click on Connect a data source -> Web Crawl and add the following web pages:
+        
         https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html
+        
         https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-covid-spreads.html   
+        
         https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html
+        
         https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/social-distancing.html
+        
         https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/quarantine-isolation.html
+        
         https://www.ndtv.com/coronavirus/india-covid-19-tracker
+        
         Click next and finish the steps.
         Copy your Environment ID, Configuration ID, Collection ID from the View API Details(Next to Delete Icon) 
 
